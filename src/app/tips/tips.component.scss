@@ -1,0 +1,126 @@
+.tips{
+
+  padding-top: 80px;
+  background-color: #fff;
+}
+
+.searchtopbar{
+margin-bottom: 20px;
+margin-top: 20px;
+overflow: hidden;
+}
+.searchtopbar div{
+    padding: 0px;
+}
+.Search_img .search-button{
+  
+
+    background: url(../../assets/img/search.png) center no-repeat;
+    border: 0;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 30px;
+
+}
+.searchinput{
+  border-radius: 3px;
+}
+
+.mar_left_75{
+   margin-left: 75px;
+}
+.Search_img{
+margin-left: 50px
+}
+.searchtopbar input, .searchtopbar select{
+    width: 100%;
+    background: #ffffff;
+    border:1px solid #ccc;
+    -webkit-apperience:none;
+    height: 40px;
+    text-indent: 10px;
+}
+.cityinput2{
+  border-radius: 3px;
+}
+
+
+/*Venders section*/
+.Venders{
+  margin-bottom: 50px;
+}
+
+
+.box_text{
+    position: relative;
+    background-color: #fff;
+    border:1px solid #ccc;
+    padding: 20px;
+    margin-top: -30px;
+    border-radius: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+    text-align:center;
+}
+.box_text button{
+   position: relative;
+   background-color: #e72e77 !important;
+   color: #fff;
+   padding: 4px 30px;
+   margin:-35px auto 0px auto; 
+   display:block;
+}
+.box_text button:hover{
+  color: #000;
+}
+
+.box_img{
+  border-radius: 5px;
+      margin-top: 20px;
+}
+
+/*End Venders section*/
+
+
+@media(max-width: 767px){
+
+  .mar_left_75{
+       margin-left: 0px !important;
+    }
+    .Search_img{
+    margin-left: 0px;
+  }
+  .tips{
+    position: fixed;
+    z-index: 1;
+    padding-top: 0;
+    top: 50px;
+}
+.searchtopbar{
+margin-bottom:0px;
+margin-top:0px;
+overflow: hidden;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.12);
+}
+.searchtopbar select{
+  border-left:0px;
+  border-bottom:0px;
+  botder-top:0px;
+}
+
+.Venders{padding-top:95px;}
+.col-xs-6{width: 50%;}
+
+.searchtopbar input,.searchtopbar select{border-radius: 0;}
+.tips{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+}
+

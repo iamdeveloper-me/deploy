@@ -1,0 +1,138 @@
+<div id="wrapper" class="toggled">
+    <div id="sidebar-wrapper">
+        <app-vendorsidebar></app-vendorsidebar>
+    </div>
+    <div id="page-content-wrapper">    
+        <app-navemenu></app-navemenu>
+<router-outlet></router-outlet> 
+<div class="content">
+    <div class="container">
+        <h3  class="h4">Edit Profile</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Personal Details</h4>
+            </div>
+            <div class="card-body">
+              <form>
+               
+                <div class="col-md-12">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="input-effect form-group md-form ">
+                            <input class="effect-16 validate" type="text" placeholder="" required="required">
+                            <label>Full Name</label>
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="bmd-label-floating">Last Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div> -->
+                </div>
+                <div class="col-md-12">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="input-effect form-group md-form ">
+                            <input class="effect-16 validate" type="text" placeholder="" required="required">
+                            <label>Phone Number</label>
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                          <div class="input-effect form-group md-form ">
+                              <input class="effect-16 validate" type="email" placeholder="" required="required">
+                              <label>Email</label>
+                              <span class="focus-border"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-12">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div class="form-group">
+                        <div class="input-effect form-group md-form ">  
+                            <input class="effect-16 validate"  required="required">
+                            <label>About Me</label>
+                            <span class="focus-border"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <div class="form-group text_right">
+                <button type="submit" class="btn btn-comman ">Update Profile</button>
+                </div>
+              
+              </div></div></div><div class="clearfix"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+              <div class="card-header">
+                  <h4 class="card-title">Change Password</h4>
+                </div>
+            <div class="card-body">
+
+                <form>
+                    <div class="col-md-12">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                            <div class="input-effect form-group md-form ">  
+                                <input class="effect-16 validate" type="password"  required="required">
+                                <label>Current Password</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                            <div class="input-effect form-group md-form ">  
+                                <input class="effect-16 validate"  type="password" required="required">
+                                <label>New Password</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <div class="input-effect form-group md-form ">  
+                                  <input class="effect-16 validate"  type="password"  required="required">
+                                  <label>Confirm Passworde</label>
+                                  <span class="focus-border"></span>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="form-group text_right">
+                        <button type="submit" class="btn btn-comman  change_pass">Change Password</button>
+                        </div>
+
+                      <div class="clearfix"></div>
+                    </form>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<app-foot></app-foot>
+<router-outlet></router-outlet>
+</div>
+</div>

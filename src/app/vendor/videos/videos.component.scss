@@ -1,0 +1,274 @@
+
+
+  .nopadd{
+    padding:0px!important;
+  }
+ 
+.navbar{
+    width: 100%;
+    background: rgba(0, 46, 119, 0.99) !important;
+    }
+.headervendor{
+    padding: 0px!important;
+    width: 100%;
+} 
+.beforenone::before, .afternone::before{
+    display: none;
+}
+.headerrightbar{
+    float:right;
+    padding: 0px 10px;
+    margin: 0px;
+}
+.btnheadvendor{
+    padding: 10px;
+    margin-top: 15px;
+}
+.btnheadvendor:hover{
+    background: #ffffff;
+}
+.list-group-item
+   {
+    padding:0px 5px;
+    line-height: 36px;
+   } 
+   .textview{
+       margin-top: 25px;
+       margin-right: 0px;
+   }
+   .textview li{
+    margin-right:15px;
+}
+.linkbtnholder li{
+    margin-left: 15px;
+}
+.nav-item{
+    color: #fff;
+    line-height: 24PX;
+}
+.nav-item .material-icons{
+    float: left;
+}
+.nopadd{
+    padding: 0px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff!important;
+    margin: 0px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+a:hover.navbar-brand {
+    color: #fff;
+}
+.navbar-brand img{
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.navbar-brand span{
+    font-size: 14px;
+    display: inherit;
+    font-weight: normal;
+    padding: 5px 0px;
+}
+.listing li{
+margin-top: 10px!important;
+}
+.listing li a{
+    color:#ffffff!important;
+    }
+    .listing li a i{
+        color:#ffffff!important;
+        }
+        .notification-dropdown .noti-list{
+            height: 269px!important;
+        }
+    .listing li .dropdown-menu.show i{
+        color: #000000!important;
+    }
+    .listing li .dropdown-menu.show a{
+        color: #000000!important;
+    }
+    .listing li .dropdown-menu.show a:hover.dropdown-item{
+        background: #E5e5e5!important;
+    }
+    .listing li .noti-list i{
+        color: #000000!important;
+    }
+    .listing li .noti-list a:hover.dropdown-item{
+        background: #E5e5e5!important;
+    }
+    .listing li a.noti-footer{
+        color: #ffffff!important;
+        background:#e72e77!important;
+    }
+
+
+    .photo_gallery{
+      background-color: #fff;
+      margin-top: 15px;
+      padding-top: 16px;
+      padding-bottom: 50px;
+      padding-left:20px!important;
+      padding-right:20px!important;
+    }
+
+.photo_gallery h2{
+
+     border-bottom: 1px solid #ccc;
+     padding-bottom: 10px;
+  }
+    .photo_gallery .col-sm-3{
+   margin-bottom:15px!important;
+    }
+  .cam_left{
+    float: right;
+  }
+  .cam_left a{
+    color: #000 !important;
+  }
+  .photos_gallery{
+    margin-top: 20px;
+  }
+.second_row{
+  margin-top: 30px;
+}
+.third_row{
+   margin-top: 30px;
+}
+.zoom_effect:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
+.albumbox{
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  width:100%;
+  color: #fff;
+  padding-top:30px;
+  z-index:999;
+}
+.defaultalbumbtn{
+  position:relative;
+  cursor:pointer;
+}
+.defaultalbumbtn img{
+border-radius:10px;
+}
+.defaultalbumbtn::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    content: "";
+    top: 0;
+    border-radius: 5px;
+    left: 0px;
+}
+.mainalbumbtn{
+  position:relative;
+}
+.mainalbumbtn img{
+border-radius:10px;
+}
+.mainalbumbtn::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    content: "";
+    top: 0;
+    border-radius: 5px;
+    left: 0px;
+}
+
+
+  //===input field
+
+:focus{outline: none;}
+.input-effect{position:relative; height: 33px;}
+
+.input-effect .effect-16{
+    border: 0;
+    padding: 4px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+.input-effect .effect-16 ~ label {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 9px;
+    color: #aaa;
+    transition: 0.3s;
+    z-index: 1;
+    letter-spacing: 0.5px;
+
+}
+.input-effect .effect-16 ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(240, 17, 140);
+    transition: 0.4s;
+}
+
+.input-effect .effect-16:focus ~ label{
+    top: -17px;
+    font-size: 12px;
+    color:  rgb(240, 17, 140);
+    transition: 0.3s;
+    z-index:999;
+}
+
+.input-effect .effect-16:focus ~ .focus-border{
+    width: 100%;
+    transition: 0.4s;
+
+}
+.my-drop-zone { 
+    border: dotted 3px lightgray; 
+    background-color: #f5f7fa !important;
+}
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+.another-file-over-class { border: dotted 3px green; }
+
+
+  @media(max-width: 767px){
+    .firt_row .col-md-3{
+      margin-bottom: 20px;
+    }
+    .second_row .col-md-3{
+      margin-bottom: 20px;
+    }
+    .third_row .col-md-3{
+      margin-bottom: 20px;
+    }
+    .second_row{
+      margin-top: 0px
+    }
+    .third_row{
+      margin-top: 0px
+    }
+  }
+
